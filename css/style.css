@@ -1,0 +1,235 @@
+:root {
+  --first--title-color: #212121;
+  --second--title-color: #FFFFFF;
+  --first--btn-color: #212121;
+  --second--btn-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* ----------HEADER--------------- */
+
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.header-link:hover, 
+.header-link:focus {
+    color: #2196F3;
+}
+.header-mail:hover, 
+.header-mail:focus {
+    color: #2196F3;
+}
+.header-tel:hover, 
+.header-tel:focus {
+    color: #2196F3;
+}
+ 
+
+.header-mail, .header-tel  {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+/* -------------HERO-------------  */
+
+.hero {
+ background-color: #212121;
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--second--title-color)
+}
+.hero-btn {
+    cursor: pointer;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--second--btn-color)
+}
+
+.hero-btn:hover, 
+.hero-btn:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* -----------BENEFITS-----------  */
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.benefits-after-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ------------ABOUT-------------  */
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first--title-color)
+}
+
+/* ------------TEAM--------------  */
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first--title-color)
+}
+.team-list-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-list-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ------------ALBUM-------------  */
+
+.btn {
+    cursor: pointer;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first--btn-color)
+}
+.btn:hover, 
+.btn:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.album-foto-item {
+}
+.album-foto-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.album-foto-element {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+}   
+/* ------------ADDRESS--------------  */
+
+.contacts-address {
+    background-color: #212121;
+}
+
+.contacts-address-map {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.cont {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.cont {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts-address-mail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts-address-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts-address-mail:hover, 
+.contacts-address-mail:focus {
+    color: #2196F3;
+}
+.contacts-address-tel:hover, 
+.contacts-address-tel:focus {
+    color: #2196F3;
+}
