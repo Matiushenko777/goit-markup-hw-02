@@ -7,16 +7,20 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: black;  
+}
+ul {
+    list-style-type: none;
 }
 
 .list {
     list-style: none;
 }
 
-.link {
+.link, .header-link {
     text-decoration: none;
 }
+
 
 /* ----------HEADER--------------- */
 
@@ -27,8 +31,13 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--first--title-color);
+    text-decoration: none;
 }
+.logoColor {
+color: #2196F3;
+}
+
 .header-link {
     font-weight: 500;
     font-size: 14px;
@@ -36,6 +45,7 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
 }
+
 .header-link:hover, 
 .header-link:focus {
     color: #2196F3;
@@ -56,12 +66,13 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    text-decoration: none;
 }
 
 /* -------------HERO-------------  */
 
 .hero {
- background-color: #212121;
+ background-color: #2F303A;
 }
 .hero-title {
     font-weight: 900;
@@ -83,14 +94,11 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    background-color: #2196F3;
     color: var(--second--btn-color)
+    
 }
 
-.hero-btn:hover, 
-.hero-btn:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
-}
 
 /* -----------BENEFITS-----------  */
 
@@ -187,43 +195,55 @@ body {
 /* ------------ADDRESS--------------  */
 
 .contacts-address {
-    background-color: #212121;
+    background-color: #2F303A
+}
+
+.contacts-address-list {
+    font-style: normal;
 }
 
 .contacts-address-map {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    text-decoration: none;
+    
 }
 .cont {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .cont {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    
 }
 .contacts-address-mail {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    
+
 }
 .contacts-address-tel {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+   
 }
 .contacts-address-mail:hover, 
 .contacts-address-mail:focus {
